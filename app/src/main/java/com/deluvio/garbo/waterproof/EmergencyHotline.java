@@ -47,11 +47,11 @@ public class EmergencyHotline extends AppCompatActivity {
         }
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
-                if (arg0.getId() == R.id.callndrrmc) {
-                    Intent callIntent = new Intent(Intent.ACTION_CALL);
-                    callIntent.setData(Uri.parse("tel:029111406"));
-                    startActivity(callIntent);
-                }
+                // if (arg0.getId() == R.id.callndrrmc) {
+                Intent callIntent = new Intent(Intent.ACTION_CALL);
+                callIntent.setData(Uri.parse("tel:029111406"));
+                startActivity(callIntent);
+          //  }
                 if (ActivityCompat.checkSelfPermission(EmergencyHotline.this,
                         Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
                     return;
