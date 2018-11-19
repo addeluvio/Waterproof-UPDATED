@@ -29,7 +29,10 @@ public class Evacuation extends AppCompatActivity {
         } else if (v.getId() == R.id.emergencyhotline) {
             i = new Intent(this, EmergencyHotline.class);
             startActivity(i);
-        } else if (v.getId() == R.id.makatigm) {
+        }   else if (v.getId() == R.id.tips){
+            i = new Intent(this, Tips.class);
+            startActivity(i);}
+        else if (v.getId() == R.id.makatigm) {
             i = new Intent(getIntent().ACTION_VIEW);
             i.setData(Uri.parse("http://maps.google.com/maps?q=loc:" + 14.563970 + "," + 121.055776));
             chooser = Intent.createChooser(i, "Choose A Map App");

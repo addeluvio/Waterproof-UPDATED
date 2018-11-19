@@ -49,7 +49,9 @@ public class EmergencyHotline extends AppCompatActivity {
         if (v.getId() == R.id.evacuationcenter) {
             i = new Intent(this, Evacuation.class);
             startActivity(i);
-        }
+        } else if (v.getId() == R.id.emergencyhotline){
+            i = new Intent(this, Tips.class);
+            startActivity(i);}
         /* ---------------------------------------------------------------------------------------------- */
 
         /* ---------------------------------------------------------------------------------------------- */

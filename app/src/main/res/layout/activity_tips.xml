@@ -1,24 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomePage">
-
-
-    <Button
-        android:id="@+id/evacuation"
-        style="@style/homebutton"
-        android:layout_width="0dp"
-        android:layout_height="40dp"
-        android:onClick="process"
-        android:text="EVAC.CENTER"
-        android:textSize="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/buttonlinedown"
-        app:layout_constraintEnd_toStartOf="@+id/evaccenlineright"
-        app:layout_constraintStart_toStartOf="@+id/homerightline"
-        app:layout_constraintTop_toTopOf="@+id/buttonlineup" />
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <Button
         android:id="@+id/emergencyhotline"
@@ -39,6 +23,19 @@
         app:layout_constraintStart_toStartOf="@+id/evaccenlineright"
         app:layout_constraintTop_toTopOf="@+id/buttonlineup" />
 
+    <Button
+        android:id="@+id/evacuation"
+        style="@style/homebutton"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:onClick="process"
+        android:text="EVAC.CENTER"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonlinedown"
+        app:layout_constraintEnd_toStartOf="@+id/evaccenlineright"
+        app:layout_constraintStart_toStartOf="@+id/homerightline"
+        app:layout_constraintTop_toTopOf="@+id/buttonlineup" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="0dp"
@@ -47,7 +44,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/hp1" />
+        app:srcCompat="@drawable/tips" />
 
     <android.support.constraint.Guideline
         android:id="@+id/piclineup"
@@ -97,10 +94,13 @@
     <Button
         android:id="@+id/home"
         style="@style/homebutton"
-        android:layout_width="0dp"
+        android:layout_width="50dp"
         android:layout_height="40dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:onClick="process"
         android:text="HOME"
         android:textSize="10dp"
         app:layout_constraintBottom_toTopOf="@+id/buttonlinedown"
@@ -116,7 +116,6 @@
         android:layout_height="40dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:onClick="process"
         android:text="TIPS"
         android:textSize="10dp"
         app:layout_constraintBottom_toTopOf="@+id/buttonlinedown"
@@ -161,13 +160,5 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="20dp"
         app:layout_constraintGuide_percent="1" />
-
-    <android.support.constraint.Guideline
-        android:id="@+id/homeleftguide"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="20dp"
-        app:layout_constraintGuide_percent="0.015" />
 
 </android.support.constraint.ConstraintLayout>
