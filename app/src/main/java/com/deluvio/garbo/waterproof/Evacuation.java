@@ -15,7 +15,7 @@ public class Evacuation extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_evacuationcenter);
+        setContentView(R.layout.activity_evacuationcenter1);
         Intent i = new Intent(this, CustomService.class);
         startService(i);
     }

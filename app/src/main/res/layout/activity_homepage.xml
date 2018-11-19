@@ -9,25 +9,164 @@
 
     <Button
         android:id="@+id/evacuation"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        style="@style/homebutton"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
         android:onClick="process"
-        android:text="EvacuationCenter"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="EVAC.CENTER"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonlinedown"
+        app:layout_constraintEnd_toStartOf="@+id/evaccenlineright"
+        app:layout_constraintStart_toStartOf="@+id/homerightline"
+        app:layout_constraintTop_toTopOf="@+id/buttonlineup" />
 
     <Button
         android:id="@+id/emergencyhotline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/homebutton"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:onClick="process"
         android:text="EmergencyHotline"
+        android:textSize="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonlinedown"
+        app:layout_constraintEnd_toStartOf="@+id/emergencylineright"
+        app:layout_constraintStart_toStartOf="@+id/evaccenlineright"
+        app:layout_constraintTop_toTopOf="@+id/buttonlineup" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/piclinedown"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hp1" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/piclineup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="511dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/piclinedown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="368dp"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/boderleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="384dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/boderright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/buttonlineup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="357dp"
+        app:layout_constraintGuide_percent="0.24" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/buttonlinedown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="317dp"
+        app:layout_constraintGuide_percent="0.34" />
+
+    <Button
+        android:id="@+id/home"
+        style="@style/homebutton"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="HOME"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonlinedown"
+        app:layout_constraintEnd_toStartOf="@+id/homerightline"
+        app:layout_constraintStart_toStartOf="@+id/homeleftguide"
+        app:layout_constraintTop_toTopOf="@+id/buttonlineup"
+        app:layout_constraintVertical_bias="0.529" />
+
+    <Button
+        android:id="@+id/tips"
+        style="@style/homebutton"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="TIPS"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonlinedown"
+        app:layout_constraintEnd_toStartOf="@+id/boderright"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="@+id/emergencylineright"
+        app:layout_constraintTop_toTopOf="@+id/buttonlineup" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/homerightline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="326dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/evaccenlineright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="211dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/emergencylineright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="77dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/borderup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/borderdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="1" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/homeleftguide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.015" />
+
 </android.support.constraint.ConstraintLayout>
