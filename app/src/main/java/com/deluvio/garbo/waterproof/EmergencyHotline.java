@@ -26,7 +26,7 @@ public class EmergencyHotline extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_emergencyhotline);
+        setContentView(R.layout.activity_emergencyhotline1);
         Intent i = new Intent(this, CustomService.class);
         startService(i);
         button = (Button) findViewById(R.id.callndrrmc);
@@ -46,10 +46,10 @@ public class EmergencyHotline extends AppCompatActivity {
             i = new Intent(this, HomePage.class);
             startActivity(i);
         }
-        if (v.getId() == R.id.evacuationcenter) {
+        if (v.getId() == R.id.evacuation) {
             i = new Intent(this, Evacuation.class);
             startActivity(i);
-        } else if (v.getId() == R.id.emergencyhotline){
+        } else if (v.getId() == R.id.tips){
             i = new Intent(this, Tips.class);
             startActivity(i);}
         /* ---------------------------------------------------------------------------------------------- */
