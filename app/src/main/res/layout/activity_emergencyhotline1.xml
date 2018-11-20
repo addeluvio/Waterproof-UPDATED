@@ -190,13 +190,13 @@
             android:orientation="vertical">
 
             <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
+                android:layout_width="361dp"
                 android:layout_height="70dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@android:color/darker_gray">
 
                 <android.support.constraint.ConstraintLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="356dp"
                     android:layout_height="match_parent">
 
                     <TextView
@@ -220,7 +220,7 @@
 
 
             <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
+                android:layout_width="361dp"
                 android:layout_height="280dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@android:color/darker_gray">
@@ -308,7 +308,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
+                android:layout_width="351dp"
                 android:layout_height="280dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@android:color/darker_gray">
@@ -396,7 +396,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
+                android:layout_width="361dp"
                 android:layout_height="70dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@android:color/darker_gray">
@@ -424,7 +424,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
+                android:layout_width="361dp"
                 android:layout_height="280dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@android:color/darker_gray">
@@ -512,7 +512,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
+                android:layout_width="361dp"
                 android:layout_height="280dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@android:color/darker_gray">

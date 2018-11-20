@@ -12,4 +12,26 @@
      <item name = "android:textColor">#FFFFFF</item>
  </style>
 
+    <style name="evacmakati">
+        <item name="android:textColor">#ffffbb33</item>
+        <item name="android:textSize">24dp</item>
+
+    </style>
+
+    <style name="evactaguig">
+        <item name="android:textColor">#ff99cc00</item>
+        <item name="android:textSize">24dp</item>
+
+    </style>
+
+    <style name="evacparanaque">
+        <item name="android:textColor">#ffff4444</item>
+        <item name="android:textSize">24dp</item>
+
+    </style>
+
+    <style name="evacmuntinlupa">
+        <item name="android:textColor">#ffaa66cc</item>
+        <item name="android:textSize">24dp</item>
+    </style>
 </resources>
