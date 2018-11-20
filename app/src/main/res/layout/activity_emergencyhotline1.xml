@@ -9,33 +9,39 @@
         android:id="@+id/emergencyhotline"
         style="@style/homebutton"
         android:layout_width="0dp"
-        android:layout_height="40dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_height="24dp"
         android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="	#008080"
         android:onClick="process"
-        android:text="EmergencyHotline"
-        android:textSize="8dp"
+        android:text="Emergency Hotline"
+        android:textSize="10dp"
         app:layout_constraintBottom_toTopOf="@+id/buttonlinedown"
         app:layout_constraintEnd_toStartOf="@+id/emergencylineright"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/evaccenlineright"
-        app:layout_constraintTop_toTopOf="@+id/buttonlineup" />
+        app:layout_constraintTop_toTopOf="@+id/buttonlineup"
+        app:layout_constraintVertical_bias="0.545" />
 
     <Button
         android:id="@+id/evacuation"
         style="@style/homebutton"
-        android:layout_width="0dp"
-        android:layout_height="40dp"
+        android:layout_width="78dp"
+        android:layout_height="24dp"
+        android:background="	#008080"
         android:onClick="process"
         android:text="EVAC.CENTER"
         android:textSize="10dp"
         app:layout_constraintBottom_toTopOf="@+id/buttonlinedown"
         app:layout_constraintEnd_toStartOf="@+id/evaccenlineright"
+        app:layout_constraintHorizontal_bias="0.513"
         app:layout_constraintStart_toStartOf="@+id/homerightline"
-        app:layout_constraintTop_toTopOf="@+id/buttonlineup" />
+        app:layout_constraintTop_toTopOf="@+id/buttonlineup"
+        app:layout_constraintVertical_bias="0.518" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -95,34 +101,38 @@
     <Button
         android:id="@+id/home"
         style="@style/homebutton"
-        android:layout_width="0dp"
-        android:layout_height="40dp"
+        android:layout_width="50dp"
+        android:layout_height="24dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:background="	#008080"
         android:onClick="process"
         android:text="HOME"
         android:textSize="10dp"
         app:layout_constraintBottom_toTopOf="@+id/buttonlinedown"
         app:layout_constraintEnd_toStartOf="@+id/homerightline"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/homeleftguide"
         app:layout_constraintTop_toTopOf="@+id/buttonlineup"
-        app:layout_constraintVertical_bias="0.529" />
+        app:layout_constraintVertical_bias="0.518" />
 
     <Button
         android:id="@+id/tips"
         style="@style/homebutton"
-        android:layout_width="0dp"
-        android:layout_height="40dp"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:background="	#008080"
         android:onClick="process"
         android:text="TIPS"
         android:textSize="10dp"
         app:layout_constraintBottom_toTopOf="@+id/buttonlinedown"
         app:layout_constraintEnd_toStartOf="@+id/boderright"
-        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintHorizontal_bias="0.714"
         app:layout_constraintStart_toStartOf="@+id/emergencylineright"
-        app:layout_constraintTop_toTopOf="@+id/buttonlineup" />
+        app:layout_constraintTop_toTopOf="@+id/buttonlineup"
+        app:layout_constraintVertical_bias="0.518" />
 
     <android.support.constraint.Guideline
         android:id="@+id/homerightline"
