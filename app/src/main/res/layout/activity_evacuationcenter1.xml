@@ -77,7 +77,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_end="0dp" />
+        app:layout_constraintGuide_end="-14dp" />
 
     <android.support.constraint.Guideline
         android:id="@+id/buttonlineup"
@@ -172,13 +172,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_begin="30dp"
         app:layout_constraintGuide_percent="0.015" />
 
 
     <ScrollView
-        android:layout_width="382dp"
-        android:layout_height="332dp"
+        android:layout_width="397dp"
+        android:layout_height="340dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
@@ -187,10 +187,10 @@
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/buttonlinedown"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="1.0"
         tools:ignore="MissingConstraints">
 
         <LinearLayout
@@ -213,15 +213,15 @@
                     <TextView
                         android:id="@+id/textView"
                         style="@style/evacmakati"
-                        android:layout_width="104dp"
-                        android:layout_height="29dp"
+                        android:layout_width="169dp"
+                        android:layout_height="31dp"
                         android:layout_marginBottom="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
-                        android:text="Makati"
+                        android:text="Makati City"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.025"
@@ -333,15 +333,15 @@
                     <TextView
                         android:id="@+id/textView"
                         style="@style/evactaguig"
-                        android:layout_width="104dp"
-                        android:layout_height="29dp"
+                        android:layout_width="176dp"
+                        android:layout_height="32dp"
                         android:layout_marginBottom="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
-                        android:text="Taguig"
+                        android:text="Taguig City"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.025"
@@ -453,15 +453,15 @@
                     <TextView
                         android:id="@+id/textView"
                         style="@style/evacparanaque"
-                        android:layout_width="135dp"
-                        android:layout_height="27dp"
+                        android:layout_width="212dp"
+                        android:layout_height="30dp"
                         android:layout_marginBottom="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
-                        android:text="Paranaque"
+                        android:text="Paranaque City"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.025"
@@ -569,15 +569,15 @@
                     <TextView
                         android:id="@+id/textView"
                         style="@style/evacmuntinlupa"
-                        android:layout_width="135dp"
-                        android:layout_height="27dp"
+                        android:layout_width="220dp"
+                        android:layout_height="36dp"
                         android:layout_marginBottom="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
-                        android:text="Muntinlupa"
+                        android:text="Muntinlupa City"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.025"
@@ -674,36 +674,47 @@
 
 
             <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="280dp"
+                android:layout_width="382dp"
+                android:layout_height="42dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@android:color/darker_gray">
+                app:cardBackgroundColor="@android:color/transparent">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="371dp"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:id="@+id/textView"
+                        style="@style/evacpasig"
+                        android:layout_width="149dp"
+                        android:layout_height="34dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Pasig City"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.025"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.571" />
+                </android.support.constraint.ConstraintLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="382dp"
+                android:layout_height="116dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="#43c3b6">
 
                 <android.support.constraint.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
-
-                    <ImageView
-                        android:id="@+id/makatiimage"
-                        android:layout_width="104dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="28dp"
-                        android:layout_marginRight="28dp"
-                        android:layout_marginTop="4dp"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@mipmap/ic_launcher" />
-
-                    <ImageView
-                        android:id="@+id/cayetanoimage"
-                        android:layout_width="104dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="28dp"
-                        android:layout_marginRight="28dp"
-                        android:layout_marginTop="4dp"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/guideline1"
-                        app:srcCompat="@mipmap/ic_launcher" />
 
                     <TextView
                         android:id="@+id/ultracomplex"
@@ -721,175 +732,409 @@
                         android:layout_width="178dp"
                         android:layout_height="46dp"
                         android:layout_marginBottom="8dp"
-                        android:layout_marginLeft="16dp"
-                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
                         android:text="Location: Pasig City"
-                        app:layout_constraintBottom_toTopOf="@+id/guideline1"
-                        app:layout_constraintStart_toStartOf="parent" />
-
-                    <android.support.constraint.Guideline
-                        android:id="@+id/guideline1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        app:layout_constraintGuide_percent="0.5" />
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="@+id/cayetanoimage"
+                        app:layout_constraintHorizontal_bias="0.047"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.851" />
 
                     <Button
-                        android:id="@+id/marikinagm"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="15dp"
-                        android:layout_marginEnd="28dp"
-                        android:layout_marginRight="28dp"
+                        android:id="@+id/pasiggm"
+                        android:layout_width="137dp"
+                        android:layout_height="34dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="128dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="128dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
                         android:onClick="process"
                         android:text="Google Map"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent" />
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.899"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <ImageView
+                        android:id="@+id/cayetanoimage"
+                        android:layout_width="132dp"
+                        android:layout_height="96dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="244dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="244dp"
+                        android:layout_marginTop="8dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@mipmap/ic_launcher" />
+
+                </android.support.constraint.ConstraintLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="382dp"
+                android:layout_height="42dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@android:color/transparent">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="371dp"
+                    android:layout_height="match_parent">
+
 
                     <TextView
-                        android:id="@+id/marikina"
-                        android:layout_width="198dp"
-                        android:layout_height="40dp"
-                        android:layout_marginLeft="16dp"
-                        android:layout_marginStart="16dp"
+                        android:id="@+id/textView"
+                        style="@style/evacmarikina"
+                        android:layout_width="143dp"
+                        android:layout_height="34dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
-                        android:text="Marikina Boys Town"
+                        android:text="Marikina City"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.025"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/guideline1" />
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.571" />
+                </android.support.constraint.ConstraintLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="382dp"
+                android:layout_height="116dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/colorPrimaryDark">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
 
                     <TextView
                         android:id="@+id/marikinaloc"
                         android:layout_width="208dp"
                         android:layout_height="71dp"
                         android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
                         android:layout_marginLeft="16dp"
+                        android:layout_marginRight="8dp"
                         android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
                         android:text="Location: Marikina City"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintStart_toStartOf="parent" />
+                        app:layout_constraintEnd_toEndOf="@+id/cayetanoimage"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <TextView
+                        android:id="@+id/marikina"
+                        android:layout_width="198dp"
+                        android:layout_height="37dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Marikina Boys Town"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0" />
 
                     <Button
-                        android:id="@+id/pasiggm"
-                        android:layout_width="wrap_content"
-                        android:layout_height="48dp"
-                        android:layout_marginBottom="12dp"
-                        android:layout_marginEnd="28dp"
-                        android:layout_marginRight="28dp"
+                        android:id="@+id/marikinagm"
+                        android:layout_width="137dp"
+                        android:layout_height="34dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="128dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="128dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
                         android:onClick="process"
                         android:text="Google Map"
-                        app:layout_constraintBottom_toTopOf="@+id/guideline1"
-                        app:layout_constraintEnd_toEndOf="parent" />
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.899"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <ImageView
+                        android:id="@+id/cayetanoimage"
+                        android:layout_width="132dp"
+                        android:layout_height="96dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="244dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="244dp"
+                        android:layout_marginTop="8dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@mipmap/ic_launcher" />
 
                 </android.support.constraint.ConstraintLayout>
             </android.support.v7.widget.CardView>
 
 
             <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="280dp"
+                android:layout_width="382dp"
+                android:layout_height="42dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@android:color/darker_gray">
+                app:cardBackgroundColor="@android:color/transparent">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="371dp"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:id="@+id/textView"
+                        style="@style/evacmanila"
+                        android:layout_width="142dp"
+                        android:layout_height="31dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Manila City"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.025"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.571" />
+                </android.support.constraint.ConstraintLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="382dp"
+                android:layout_height="116dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@android:color/holo_blue_dark">
 
                 <android.support.constraint.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
-                    <ImageView
-                        android:id="@+id/makatiimage"
-                        android:layout_width="104dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="28dp"
-                        android:layout_marginRight="28dp"
-                        android:layout_marginTop="4dp"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@mipmap/ic_launcher" />
-
-                    <ImageView
-                        android:id="@+id/cayetanoimage"
-                        android:layout_width="104dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="28dp"
-                        android:layout_marginRight="28dp"
-                        android:layout_marginTop="4dp"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/guideline1"
-                        app:srcCompat="@mipmap/ic_launcher" />
-
                     <TextView
                         android:id="@+id/ust"
                         android:layout_width="172dp"
                         android:layout_height="69dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
                         android:layout_marginLeft="16dp"
+                        android:layout_marginRight="8dp"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="8dp"
                         android:text="University of Santo Tomas"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.258" />
 
                     <TextView
                         android:id="@+id/manilaloc"
                         android:layout_width="178dp"
                         android:layout_height="46dp"
                         android:layout_marginBottom="8dp"
-                        android:layout_marginLeft="16dp"
-                        android:layout_marginStart="16dp"
-                        android:text="Location: Manila City"
-                        app:layout_constraintBottom_toTopOf="@+id/guideline1"
-                        app:layout_constraintStart_toStartOf="parent" />
-
-                    <android.support.constraint.Guideline
-                        android:id="@+id/guideline1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        app:layout_constraintGuide_percent="0.5" />
-
-                    <Button
-                        android:id="@+id/quezongm"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="15dp"
-                        android:layout_marginEnd="28dp"
-                        android:layout_marginRight="28dp"
-                        android:onClick="process"
-                        android:text="Google Map"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent" />
-
-                    <TextView
-                        android:id="@+id/updiliman"
-                        android:layout_width="198dp"
-                        android:layout_height="40dp"
-                        android:layout_marginLeft="16dp"
-                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
-                        android:text="UP Diliman Campus "
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/guideline1" />
-
-                    <TextView
-                        android:id="@+id/quezonloc"
-                        android:layout_width="208dp"
-                        android:layout_height="71dp"
-                        android:layout_marginBottom="8dp"
-                        android:layout_marginLeft="16dp"
-                        android:layout_marginStart="16dp"
-                        android:text="Location: Quezon City"
+                        android:text="Location: Manila City"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintStart_toStartOf="parent" />
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.042"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.851" />
 
                     <Button
                         android:id="@+id/manilagm"
-                        android:layout_width="wrap_content"
-                        android:layout_height="48dp"
-                        android:layout_marginBottom="12dp"
-                        android:layout_marginEnd="28dp"
-                        android:layout_marginRight="28dp"
+                        android:layout_width="137dp"
+                        android:layout_height="34dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="128dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="128dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
                         android:onClick="process"
                         android:text="Google Map"
-                        app:layout_constraintBottom_toTopOf="@+id/guideline1"
-                        app:layout_constraintEnd_toEndOf="parent" />
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.899"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <ImageView
+                        android:id="@+id/cayetanoimage"
+                        android:layout_width="132dp"
+                        android:layout_height="96dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="244dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="244dp"
+                        android:layout_marginTop="8dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@mipmap/ic_launcher" />
+
+                </android.support.constraint.ConstraintLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="382dp"
+                android:layout_height="42dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@android:color/transparent">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="371dp"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:id="@+id/textView"
+                        style="@style/evacqc"
+                        android:layout_width="141dp"
+                        android:layout_height="31dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Quezon City"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.025"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.571" />
+                </android.support.constraint.ConstraintLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="382dp"
+                android:layout_height="116dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/colorAccent">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/up"
+                        android:layout_width="172dp"
+                        android:layout_height="69dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:text="UP Diliman Campus"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.258" />
+
+                    <TextView
+                        android:id="@+id/manilaloc"
+                        android:layout_width="178dp"
+                        android:layout_height="46dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Location: Quezon City"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.042"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.851" />
+
+                    <Button
+                        android:id="@+id/quezongm"
+                        android:layout_width="137dp"
+                        android:layout_height="34dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="128dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="128dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:onClick="process"
+                        android:text="Google Map"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.899"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <ImageView
+                        android:id="@+id/cayetanoimage"
+                        android:layout_width="132dp"
+                        android:layout_height="96dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="244dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="244dp"
+                        android:layout_marginTop="8dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@mipmap/ic_launcher" />
 
                 </android.support.constraint.ConstraintLayout>
             </android.support.v7.widget.CardView>
