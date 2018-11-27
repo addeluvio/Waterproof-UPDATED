@@ -12,6 +12,8 @@
         style="@style/homebutton"
         android:layout_width="78dp"
         android:layout_height="24dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
         android:background="	#008080"
         android:onClick="process"
         android:text="EVAC.CENTER"
