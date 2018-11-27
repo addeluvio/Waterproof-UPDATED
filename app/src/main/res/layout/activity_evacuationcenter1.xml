@@ -1132,7 +1132,7 @@
                         app:layout_constraintVertical_bias="1.0" />
 
                     <ImageView
-                        android:id="@+id/cayetanoimage"
+                        android:id="@+id/quezonimage"
                         android:layout_width="132dp"
                         android:layout_height="96dp"
                         android:layout_marginBottom="8dp"
