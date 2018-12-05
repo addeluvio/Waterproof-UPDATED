@@ -205,7 +205,7 @@
                 android:layout_width="361dp"
                 android:layout_height="70dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@android:color/darker_gray">
+                app:cardBackgroundColor="#0950b3">
 
                 <android.support.constraint.ConstraintLayout
                     android:layout_width="356dp"
@@ -235,7 +235,7 @@
                 android:layout_width="361dp"
                 android:layout_height="280dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@android:color/darker_gray">
+                app:cardBackgroundColor="@android:color/holo_blue_dark">
 
                 <android.support.constraint.ConstraintLayout
                     android:layout_width="match_parent"
@@ -323,7 +323,7 @@
                 android:layout_width="351dp"
                 android:layout_height="280dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@android:color/darker_gray">
+                app:cardBackgroundColor="@android:color/holo_blue_dark">
 
                 <android.support.constraint.ConstraintLayout
                     android:layout_width="match_parent"
@@ -411,7 +411,7 @@
                 android:layout_width="361dp"
                 android:layout_height="70dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@android:color/darker_gray">
+                app:cardBackgroundColor="@android:color/holo_green_dark">
 
                 <android.support.constraint.ConstraintLayout
                     android:layout_width="match_parent"
@@ -439,7 +439,7 @@
                 android:layout_width="361dp"
                 android:layout_height="280dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@android:color/darker_gray">
+                app:cardBackgroundColor="@android:color/holo_green_light">
 
                 <android.support.constraint.ConstraintLayout
                     android:layout_width="match_parent"
@@ -527,7 +527,7 @@
                 android:layout_width="361dp"
                 android:layout_height="280dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@android:color/darker_gray">
+                app:cardBackgroundColor="@android:color/holo_green_light">
 
                 <android.support.constraint.ConstraintLayout
                     android:layout_width="match_parent"
