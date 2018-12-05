@@ -740,7 +740,7 @@
                 android:layout_width="382dp"
                 android:layout_height="116dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@color/colorPrimaryDark">
+                app:cardBackgroundColor="@android:color/holo_green_light">
 
                 <android.support.constraint.ConstraintLayout
                     android:layout_width="match_parent"
