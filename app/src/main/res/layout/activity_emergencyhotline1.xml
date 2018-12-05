@@ -205,7 +205,7 @@
                 android:layout_width="361dp"
                 android:layout_height="70dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="#106ae8">
+                app:cardBackgroundColor="@android:color/background_light">
 
                 <android.support.constraint.ConstraintLayout
                     android:layout_width="356dp"
@@ -213,15 +213,16 @@
 
                     <TextView
                         android:id="@+id/ncr"
-                        android:layout_width="255dp"
-                        android:layout_height="59dp"
+                        style="@style/textsize"
+                        android:layout_width="347dp"
+                        android:layout_height="34dp"
                         android:layout_marginBottom="24dp"
                         android:layout_marginEnd="148dp"
                         android:layout_marginLeft="148dp"
                         android:layout_marginRight="148dp"
                         android:layout_marginStart="148dp"
                         android:layout_marginTop="27dp"
-                        android:text="NCR"
+                        android:text="National Capital Region Hotlines"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -235,24 +236,26 @@
                 android:layout_width="361dp"
                 android:layout_height="280dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@android:color/holo_blue_dark">
+                app:cardBackgroundColor="#008080">
 
                 <android.support.constraint.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <TextView
+                        style="@style/textcolor"
                         android:id="@+id/ndrrmc"
                         android:layout_width="136dp"
                         android:layout_height="69dp"
                         android:layout_marginLeft="16dp"
                         android:layout_marginStart="16dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_marginTop="16dp"
                         android:text="National Disaster and Risk Reduction and Management Council (NDRRMC)"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
+                        style="@style/textcolor"
                         android:id="@+id/ndrrmctel"
                         android:layout_width="178dp"
                         android:layout_height="46dp"
@@ -283,6 +286,7 @@
                         app:layout_constraintTop_toBottomOf="@+id/guideline1" />
 
                     <TextView
+                        style="@style/textcolor"
                         android:id="@+id/mmdam"
                         android:layout_width="198dp"
                         android:layout_height="40dp"
@@ -294,6 +298,7 @@
                         app:layout_constraintTop_toBottomOf="@+id/guideline1" />
 
                     <TextView
+                        style="@style/textcolor"
                         android:id="@+id/mmdamtel"
                         android:layout_width="208dp"
                         android:layout_height="71dp"
@@ -323,7 +328,7 @@
                 android:layout_width="351dp"
                 android:layout_height="280dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@android:color/holo_blue_dark">
+                app:cardBackgroundColor="#008080">
 
                 <android.support.constraint.ConstraintLayout
                     android:layout_width="match_parent"
@@ -331,6 +336,7 @@
 
                     <TextView
                         android:id="@+id/dotc"
+                        style="@style/textcolor"
                         android:layout_width="228dp"
                         android:layout_height="50dp"
                         android:layout_marginLeft="16dp"
@@ -349,6 +355,7 @@
 
                     <TextView
                         android:id="@+id/dotctel"
+                        style="@style/textcolor"
                         android:layout_width="203dp"
                         android:layout_height="66dp"
                         android:layout_marginBottom="8dp"
@@ -372,6 +379,7 @@
 
                     <TextView
                         android:id="@+id/doh"
+                        style="@style/textcolor"
                         android:layout_width="198dp"
                         android:layout_height="37dp"
                         android:layout_marginLeft="16dp"
@@ -383,6 +391,7 @@
 
                     <TextView
                         android:id="@+id/dohtel"
+                        style="@style/textcolor"
                         android:layout_width="216dp"
                         android:layout_height="74dp"
                         android:layout_marginBottom="8dp"
@@ -411,7 +420,7 @@
                 android:layout_width="361dp"
                 android:layout_height="70dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@android:color/holo_green_dark">
+                app:cardBackgroundColor="@android:color/background_light">
 
                 <android.support.constraint.ConstraintLayout
                     android:layout_width="match_parent"
@@ -419,8 +428,9 @@
 
                     <TextView
                         android:id="@+id/localhotlines"
-                        android:layout_width="255dp"
-                        android:layout_height="59dp"
+                        style="@style/textsize"
+                        android:layout_width="322dp"
+                        android:layout_height="65dp"
                         android:layout_marginBottom="24dp"
                         android:layout_marginEnd="148dp"
                         android:layout_marginLeft="148dp"
@@ -439,13 +449,14 @@
                 android:layout_width="361dp"
                 android:layout_height="280dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@android:color/holo_green_light">
+                app:cardBackgroundColor="#008080">
 
                 <android.support.constraint.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <TextView
+                        style="@style/textcolor"
                         android:id="@+id/makati"
                         android:layout_width="172dp"
                         android:layout_height="69dp"
@@ -457,6 +468,7 @@
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
+                        style="@style/textcolor"
                         android:id="@+id/makatitel"
                         android:layout_width="178dp"
                         android:layout_height="46dp"
@@ -487,6 +499,7 @@
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
+                        style="@style/textcolor"
                         android:id="@+id/pasig"
                         android:layout_width="198dp"
                         android:layout_height="40dp"
@@ -498,6 +511,7 @@
                         app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
                     <TextView
+                        style="@style/textcolor"
                         android:id="@+id/pasigtel"
                         android:layout_width="208dp"
                         android:layout_height="71dp"
@@ -527,13 +541,14 @@
                 android:layout_width="361dp"
                 android:layout_height="280dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@android:color/holo_green_light">
+                app:cardBackgroundColor="#008080">
 
                 <android.support.constraint.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <TextView
+                        style="@style/textcolor"
                         android:id="@+id/mandaluyong"
                         android:layout_width="0dp"
                         android:layout_height="50dp"
@@ -555,6 +570,7 @@
                         app:layout_constraintGuide_percent="0.5" />
 
                     <TextView
+                        style="@style/textcolor"
                         android:id="@+id/mandaluyongtel"
                         android:layout_width="203dp"
                         android:layout_height="66dp"
@@ -578,6 +594,7 @@
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
+                        style="@style/textcolor"
                         android:id="@+id/cainta"
                         android:layout_width="198dp"
                         android:layout_height="40dp"
@@ -589,6 +606,7 @@
                         app:layout_constraintTop_toBottomOf="@+id/guideline4" />
 
                     <TextView
+                        style="@style/textcolor"
                         android:id="@+id/caintatel"
                         android:layout_width="216dp"
                         android:layout_height="74dp"
