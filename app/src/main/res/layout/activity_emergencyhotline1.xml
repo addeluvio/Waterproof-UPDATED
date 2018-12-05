@@ -183,7 +183,7 @@
 
     <ScrollView
         android:layout_width="361dp"
-        android:layout_height="320dp"
+        android:layout_height="390dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
@@ -243,8 +243,8 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        style="@style/textcolor"
                         android:id="@+id/ndrrmc"
+                        style="@style/textcolor"
                         android:layout_width="136dp"
                         android:layout_height="69dp"
                         android:layout_marginLeft="16dp"
@@ -255,8 +255,8 @@
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
-                        style="@style/textcolor"
                         android:id="@+id/ndrrmctel"
+                        style="@style/textcolor"
                         android:layout_width="178dp"
                         android:layout_height="46dp"
                         android:layout_marginBottom="8dp"
@@ -286,8 +286,8 @@
                         app:layout_constraintTop_toBottomOf="@+id/guideline1" />
 
                     <TextView
-                        style="@style/textcolor"
                         android:id="@+id/mmdam"
+                        style="@style/textcolor"
                         android:layout_width="198dp"
                         android:layout_height="40dp"
                         android:layout_marginLeft="16dp"
@@ -298,8 +298,8 @@
                         app:layout_constraintTop_toBottomOf="@+id/guideline1" />
 
                     <TextView
-                        style="@style/textcolor"
                         android:id="@+id/mmdamtel"
+                        style="@style/textcolor"
                         android:layout_width="208dp"
                         android:layout_height="71dp"
                         android:layout_marginBottom="8dp"
@@ -456,8 +456,8 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        style="@style/textcolor"
                         android:id="@+id/makati"
+                        style="@style/textcolor"
                         android:layout_width="172dp"
                         android:layout_height="69dp"
                         android:layout_marginLeft="16dp"
@@ -468,8 +468,8 @@
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
-                        style="@style/textcolor"
                         android:id="@+id/makatitel"
+                        style="@style/textcolor"
                         android:layout_width="178dp"
                         android:layout_height="46dp"
                         android:layout_marginBottom="8dp"
@@ -499,8 +499,8 @@
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
-                        style="@style/textcolor"
                         android:id="@+id/pasig"
+                        style="@style/textcolor"
                         android:layout_width="198dp"
                         android:layout_height="40dp"
                         android:layout_marginLeft="16dp"
@@ -511,8 +511,8 @@
                         app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
                     <TextView
-                        style="@style/textcolor"
                         android:id="@+id/pasigtel"
+                        style="@style/textcolor"
                         android:layout_width="208dp"
                         android:layout_height="71dp"
                         android:layout_marginBottom="8dp"
@@ -548,8 +548,8 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        style="@style/textcolor"
                         android:id="@+id/mandaluyong"
+                        style="@style/textcolor"
                         android:layout_width="0dp"
                         android:layout_height="50dp"
                         android:layout_marginEnd="8dp"
@@ -570,8 +570,8 @@
                         app:layout_constraintGuide_percent="0.5" />
 
                     <TextView
-                        style="@style/textcolor"
                         android:id="@+id/mandaluyongtel"
+                        style="@style/textcolor"
                         android:layout_width="203dp"
                         android:layout_height="66dp"
                         android:layout_marginBottom="8dp"
@@ -594,8 +594,8 @@
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
-                        style="@style/textcolor"
                         android:id="@+id/cainta"
+                        style="@style/textcolor"
                         android:layout_width="198dp"
                         android:layout_height="40dp"
                         android:layout_marginLeft="16dp"
@@ -606,8 +606,8 @@
                         app:layout_constraintTop_toBottomOf="@+id/guideline4" />
 
                     <TextView
-                        style="@style/textcolor"
                         android:id="@+id/caintatel"
+                        style="@style/textcolor"
                         android:layout_width="216dp"
                         android:layout_height="74dp"
                         android:layout_marginBottom="8dp"

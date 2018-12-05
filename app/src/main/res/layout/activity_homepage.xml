@@ -95,7 +95,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_end="317dp"
+        app:layout_constraintGuide_end="375dp"
         app:layout_constraintGuide_percent="0.34" />
 
     <Button
@@ -180,7 +180,7 @@
 
     <ScrollView
         android:layout_width="382dp"
-        android:layout_height="332dp"
+        android:layout_height="386dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
