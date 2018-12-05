@@ -164,6 +164,7 @@
         app:layout_constraintGuide_percent="1" />
 
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="367dp"
         android:layout_height="320dp"
         android:layout_marginBottom="8dp"
@@ -184,8 +185,8 @@
 
             <ImageView
                 android:id="@+id/imageView2"
-                android:layout_width="339dp"
-                android:layout_height="208dp"
+                android:layout_width="334dp"
+                android:layout_height="197dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="8dp"
@@ -194,13 +195,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:srcCompat="@drawable/tips1"
                 tools:layout_editor_absoluteY="16dp" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-            </LinearLayout>
 
         </LinearLayout>
     </ScrollView>

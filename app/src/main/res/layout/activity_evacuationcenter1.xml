@@ -213,7 +213,7 @@
 
 
                     <TextView
-                        android:id="@+id/textView"
+                        android:id="@+id/makatitextView"
                         style="@style/evacmakati"
                         android:layout_width="169dp"
                         android:layout_height="31dp"
@@ -299,20 +299,6 @@
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="1.0" />
 
-                    <ImageView
-                        android:id="@+id/imageView3"
-                        android:layout_width="155dp"
-                        android:layout_height="85dp"
-                        android:layout_marginBottom="8dp"
-                        android:layout_marginLeft="7dp"
-                        android:layout_marginStart="7dp"
-                        android:layout_marginTop="8dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toEndOf="@+id/makatigm"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/makati" />
-
                 </android.support.constraint.ConstraintLayout>
             </android.support.v7.widget.CardView>
 
@@ -329,7 +315,7 @@
 
 
                     <TextView
-                        android:id="@+id/textView"
+                        android:id="@+id/taguigtextView"
                         style="@style/evactaguig"
                         android:layout_width="176dp"
                         android:layout_height="32dp"
@@ -381,20 +367,6 @@
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.862" />
 
-                    <ImageView
-                        android:id="@+id/imageView3"
-                        android:layout_width="155dp"
-                        android:layout_height="85dp"
-                        android:layout_marginBottom="8dp"
-                        android:layout_marginLeft="7dp"
-                        android:layout_marginStart="7dp"
-                        android:layout_marginTop="8dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toEndOf="@+id/makatigm"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/taguig" />
-
                     <Button
                         android:id="@+id/taguiggm"
                         android:layout_width="137dp"
@@ -433,21 +405,6 @@
                         app:layout_constraintVertical_bias="0.133" />
 
 
-                    <ImageView
-                        android:id="@+id/imageView10"
-                        android:layout_width="155dp"
-                        android:layout_height="85dp"
-                        android:layout_marginBottom="8dp"
-                        android:layout_marginLeft="7dp"
-                        android:layout_marginStart="7dp"
-                        android:layout_marginTop="8dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/taguig" />
-
-
                 </android.support.constraint.ConstraintLayout>
             </android.support.v7.widget.CardView>
 
@@ -463,7 +420,7 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:id="@+id/textView"
+                        android:id="@+id/paranquetextView"
                         style="@style/evacparanaque"
                         android:layout_width="212dp"
                         android:layout_height="30dp"
@@ -511,22 +468,6 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.0" />
-
-                    <ImageView
-                        android:id="@+id/makatiimage"
-                        android:layout_width="132dp"
-                        android:layout_height="96dp"
-                        android:layout_marginBottom="8dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginRight="8dp"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginTop="8dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toEndOf="@+id/paranquegm"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/para" />
 
                     <Button
                         android:id="@+id/paranquegm"
@@ -579,7 +520,7 @@
 
 
                     <TextView
-                        android:id="@+id/textView"
+                        android:id="@+id/muntinlupatextView"
                         style="@style/evacmuntinlupa"
                         android:layout_width="220dp"
                         android:layout_height="36dp"
@@ -664,23 +605,6 @@
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.0" />
 
-                    <ImageView
-                        android:id="@+id/cayetanoimage"
-                        android:layout_width="132dp"
-                        android:layout_height="96dp"
-                        android:layout_marginBottom="8dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginLeft="244dp"
-                        android:layout_marginRight="8dp"
-                        android:layout_marginStart="244dp"
-                        android:layout_marginTop="8dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.0"
-                        app:srcCompat="@drawable/munt"  />
-
                 </android.support.constraint.ConstraintLayout>
             </android.support.v7.widget.CardView>
 
@@ -697,7 +621,7 @@
 
 
                     <TextView
-                        android:id="@+id/textView"
+                        android:id="@+id/pasigtextView"
                         style="@style/evacpasig"
                         android:layout_width="149dp"
                         android:layout_height="34dp"
@@ -776,23 +700,6 @@
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="1.0" />
 
-                    <ImageView
-                        android:id="@+id/cayetanoimage"
-                        android:layout_width="132dp"
-                        android:layout_height="96dp"
-                        android:layout_marginBottom="8dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginLeft="244dp"
-                        android:layout_marginRight="8dp"
-                        android:layout_marginStart="244dp"
-                        android:layout_marginTop="8dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.0"
-                        app:srcCompat="@drawable/pasig" />
-
                 </android.support.constraint.ConstraintLayout>
             </android.support.v7.widget.CardView>
 
@@ -844,15 +751,11 @@
                         android:layout_width="208dp"
                         android:layout_height="71dp"
                         android:layout_marginBottom="8dp"
-                        android:layout_marginEnd="8dp"
                         android:layout_marginLeft="16dp"
-                        android:layout_marginRight="8dp"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="8dp"
                         android:text="Location: Marikina City"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="@+id/cayetanoimage"
-                        app:layout_constraintHorizontal_bias="0.0"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="1.0" />
@@ -894,23 +797,6 @@
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="1.0" />
 
-                    <ImageView
-                        android:id="@+id/cayetanoimage"
-                        android:layout_width="132dp"
-                        android:layout_height="96dp"
-                        android:layout_marginBottom="8dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginLeft="244dp"
-                        android:layout_marginRight="8dp"
-                        android:layout_marginStart="244dp"
-                        android:layout_marginTop="8dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.0"
-                        app:srcCompat="@drawable/marikina" />
-
                 </android.support.constraint.ConstraintLayout>
             </android.support.v7.widget.CardView>
 
@@ -927,7 +813,7 @@
 
 
                     <TextView
-                        android:id="@+id/textView"
+                        android:id="@+id/manilatextView"
                         style="@style/evacmanila"
                         android:layout_width="142dp"
                         android:layout_height="31dp"
@@ -1013,23 +899,6 @@
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="1.0" />
 
-                    <ImageView
-                        android:id="@+id/cayetanoimage"
-                        android:layout_width="132dp"
-                        android:layout_height="96dp"
-                        android:layout_marginBottom="8dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginLeft="244dp"
-                        android:layout_marginRight="8dp"
-                        android:layout_marginStart="244dp"
-                        android:layout_marginTop="8dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.0"
-                        app:srcCompat="@drawable/manila" />
-
                 </android.support.constraint.ConstraintLayout>
             </android.support.v7.widget.CardView>
 
@@ -1046,7 +915,7 @@
 
 
                     <TextView
-                        android:id="@+id/textView"
+                        android:id="@+id/quezontextview"
                         style="@style/evacqc"
                         android:layout_width="141dp"
                         android:layout_height="31dp"
@@ -1095,7 +964,7 @@
                         app:layout_constraintVertical_bias="0.258" />
 
                     <TextView
-                        android:id="@+id/manilaloc"
+                        android:id="@+id/quezonloc"
                         android:layout_width="178dp"
                         android:layout_height="46dp"
                         android:layout_marginBottom="8dp"
@@ -1130,23 +999,6 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="1.0" />
-
-                    <ImageView
-                        android:id="@+id/quezonimage"
-                        android:layout_width="132dp"
-                        android:layout_height="96dp"
-                        android:layout_marginBottom="8dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginLeft="244dp"
-                        android:layout_marginRight="8dp"
-                        android:layout_marginStart="244dp"
-                        android:layout_marginTop="8dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.0"
-                        app:srcCompat="@drawable/quez" />
 
                 </android.support.constraint.ConstraintLayout>
             </android.support.v7.widget.CardView>
